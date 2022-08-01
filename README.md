@@ -11,4 +11,4 @@
 - the aim of the game is to help the bird fly through the gap between the pipes;
 - for each flight through the gap you get points (they are shown below).
 
-## My record is 31 points. Try to beat it!
+**My record is 31 points. Try to beat it!**
