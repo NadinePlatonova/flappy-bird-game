@@ -2,6 +2,8 @@
 
 > Flappy Bird 2D Game with using JavaScript and Canvas
 
+![project demonstration](img/demo.gif)
+
 **Stack:** HTML, JavaScript
 
 **Main functionality:**
