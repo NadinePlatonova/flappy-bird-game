@@ -66,9 +66,7 @@ function draw() {
         // If bird faces with pipes
         if(xPos + bird.width >= pipe[i].x
             && xPos <= pipe[i].x + pipeUp.width
-            && (yPos <= pipe[i].y + pipeUp.height
-                || yPos + bird.height >= pipe[i].y + pipeUp.height +
-                GAP_BETWEEN_PIPES) || yPos + bird.height >= cvs.height - fg.height) {
+            && (yPos <= pipe[i].y + pipeUp.height || yPos + bird.height >= pipe[i].y + pipeUp.height + GAP_BETWEEN_PIPES) || yPos + bird.height >= cvs.height - fg.height) {
                     location.reload(); //Reload the page
                 }
         if(pipe[i].x == 5) {
